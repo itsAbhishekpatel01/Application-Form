@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Application</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="form">
+      <div class="head">
+        <h1>Job Application</h1>
+        <h2>(Web)</h2>
+      </div>
+
+      <div class="inputrow">
+        <div class="inputblock">
+          <div class="labelbox">
+            <label for="fname">First Name</label> <br />
+          </div>
+          <div class="inputbox">
+            <input type="text" name="fname" id="fname" />
+          </div>
+        </div>
+        <div class="inputblock">
+          <div class="labelbox">
+            <label for="lname">Last Name</label> <br />
+          </div>
+          <div class="inputbox">
+            <input type="text" name="lname" id="lname" />
+          </div>
+        </div>
+      </div>
+
+      <div class="inputrow">
+        <div class="inputblock">
+          <div class="labelbox"><label for="email">Email</label> <br /></div>
+          <div class="inputbox">
+            <input type="text" name="email" id="email" />
+          </div>
+        </div>
+        <div class="inputblock">
+          <div class="labelbox"><label for="role">Job Role</label> <br /></div>
+          <div class="inputbox">
+            <select name="role" id="role">
+              <option value="choose">Select Job Role</option>
+              <option value="developer">Developer</option>
+              <option value="tester">Tester</option>
+              <option value="engineer">Engineer</option>
+              <option value="analyst">Analyst</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="inputrow">
+        <div class="inputblock">
+          <div class="labelbox">
+            <label for="leftinput">Address</label> <br />
+          </div>
+          <div class="inputbox">
+            <textarea
+              class="input"
+              name="address"
+              id="ad"
+              cols="50%"
+              rows="6"
+            ></textarea>
+          </div>
+        </div>
+      </div>
+
+      <div class="inputrow">
+        <div class="inputblock">
+          <div class="labelbox"><label for="city">City</label> <br /></div>
+          <div class="inputbox">
+            <input type="text" name="city" id="city" />
+          </div>
+        </div>
+        <div class="inputblock">
+          <div class="labelbox">
+            <label for="pincode">Pincode</label> <br />
+          </div>
+          <div class="inputbox">
+            <input type="text" name="pincode" id="pincode" />
+          </div>
+        </div>
+      </div>
+
+      <div class="inputrow">
+        <div class="inputblock">
+          <div class="labelbox">
+            <label for="startdate">Start Date</label> <br />
+          </div>
+          <div class="inputbox" id="date">
+            <input type="date" name="startdate" id="startdate" />
+          </div>
+        </div>
+        <div class="inputblock">
+          <div class="labelbox">
+            <label for="cv">Upload Your Cv</label>
+          </div>
+          <div class="inputbox" id="file">
+            <input type="file" name="cv" id="cv" />
+          </div>
+        </div>
+      </div>
+
+      <div class="inputrow">
+        <div class="input" id="button">
+          <button type="submit">Apply Now</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
